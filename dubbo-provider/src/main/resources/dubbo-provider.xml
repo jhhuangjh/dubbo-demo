@@ -11,5 +11,5 @@
     <dubbo:registry protocol="zookeeper" address="47.115.52.60:2181"/>
     <!-- 4.定义服务的提供者 -->
     <bean id="userService" class="org.jh.service.impl.UserServiceImpl"/>
-    <dubbo:service interface="org.jh.service.IUserService" ref="userService"/>
+    <dubbo:service interface="org.jh.service.IUserService" ref="userService" loadbalance="roundrobin"/>
 </beans>
