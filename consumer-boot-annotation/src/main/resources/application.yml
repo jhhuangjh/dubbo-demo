@@ -1,0 +1,8 @@
+server:
+  port: 8281
+dubbo:
+  application:
+    name: consumer-boot-annotation
+  registry:
+    protocol: zookeeper
+    address: 47.115.52.60:2181
