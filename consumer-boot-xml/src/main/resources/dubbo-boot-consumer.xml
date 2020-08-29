@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
 
-    <bubbo:application name="dubbo-boot-consumer"/>
+    <bubbo:application name="consumer-boot-xml"/>
     <dubbo:registry protocol="zookeeper" address="47.115.52.60:2181"/>
     <!-- 引用服务 -->
     <dubbo:reference interface="org.jh.service.IUserService" id="userService"/>

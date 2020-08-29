@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!-- 1.定义应用的名称 -->
-    <dubbo:application name="dubbo-boot-provider"/>
+    <dubbo:application name="provider-boot-xml"/>
     <!-- 2.定义协议端口 -->
     <dubbo:protocol port="28801"/>
     <!-- 3.定义注册中心的地址 -->

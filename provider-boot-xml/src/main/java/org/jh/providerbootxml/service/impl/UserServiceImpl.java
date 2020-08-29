@@ -11,7 +11,7 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public String hello() {
-        return "Hello, dubbo-boot!";
+        return "Hello, dubbo-boot-xml!";
     }
 
 }
